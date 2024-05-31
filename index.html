@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.cdnfonts.com/css/omegle" rel="stylesheet">
+    <style>
+        /* Estilos para el botón de inicio de sesión */
+        .container__form__input--submit {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        /* Estilos para el botón de inicio de sesión cuando el cursor está sobre él */
+        .container__form__input--submit:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <section class="wrapper">
+        <div class="wrapper__container">
+            <div class="container__div__img">
+                <img src="imagenes/pngegg.png" alt="Pc-Image">
+            </div>
+            <form class="wrapper__container__form" action="inicio.html">
+                <h1>Member Login</h1>
+                <input class="container__form__input" type="email" placeholder="Email">
+                <input class="container__form__input" type="password" placeholder="Password">
+                <div class="form__container__rememberAndForgot">
+                    <div class="form__container__checkbox">
+                        <input type="checkbox" id="rememberPassword">
+                        <label for="rememberPassword"> Remember</label>
+                    </div>
+                    <a id="forgot__password" href="#">Forgot Password?</a>
+                </div>
+                <input class="container__form__input container__form__input--submit" type="submit" value="Login">
+            </form>
+        </div>
+    </section>
+</body>
+</html>
